@@ -354,13 +354,6 @@ element {
 ---
 
 ---
-
-## Alinhamento de mentalidade
-
-- [ ]  Evolução
-- [ ]  Prática
-- [ ]  Continue …
-
 ---
 
 ## Config para o VSCode
