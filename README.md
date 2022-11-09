@@ -656,19 +656,7 @@ person.drive()
 
 ---
 
-## Fortalecendo a jornada
 
-- [ ]  Tá complicado?
-- [ ]  Desafios da jornada
-    - [ ]  Dominar fundamentos
-    - [ ]  Aprendizado atualizado
-    - [ ]  Posicionamento e diferencial
-    - [ ]  Internos: auto sabotagem, comparação, ansiedade
-- [ ]  Paciência, Dedicação, Investimento
-- [ ]  Tempo (eficiente)
-
-> Não existem atalhos, mas existe caminho mais eficiente
->
 
 
 

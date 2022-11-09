@@ -14,7 +14,7 @@ body {
     background-color: #121214;
     background-image: url('../img/assets/bg2.svg');
     background-position-x: center;
-    background-position-y: 55.6%;
+    background-position-y:  -715px; /*55.6%;*/
 }
 
 body * {
@@ -30,6 +30,7 @@ body * {
 header {
     margin-bottom: 63px;
     /*border: 1px solid red;*/
+    text-align: center;
 }
 
 .card {
