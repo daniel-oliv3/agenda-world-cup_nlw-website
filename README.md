@@ -1,21 +1,25 @@
 ##
+
 ### Calendário World Cup 2022
+
 ##
 
-
 ### Pré-Requisitos.
-- HTML, CSS, JavaScript.
 
+- HTML, CSS, JavaScript.
 
 ### Ferramentas do programador.
 
 **Visual Studio Code**
+
 - Site: https://code.visualstudio.com/download
 
 **FrontEnditor**
+
 - (Editor Online): https://www.fronteditor.dev/
 
 ### Figma
+
 - Figma do projeto: https://www.figma.com/community/file/1169028052212317700
 
 Front End(Editor Online): https://www.fronteditor.dev/
@@ -29,13 +33,9 @@ Descomplicando a programação
 ## O que é programar?
 
 - Codar, Desenvolver, Programar
-    
-    Resolver problemas do mundo real através das linhas de código
-    
+  Resolver problemas do mundo real através das linhas de código
 - Falar com o computador
-    
-    Aprender linguagens para dar ordens ao computador
-    
+  Aprender linguagens para dar ordens ao computador
 
 ---
 
@@ -61,12 +61,12 @@ Podemos aprender programação em diversas áreas de atuação como, por exemplo
 ## Programas e Arquivos
 
 - Programa e aplicativos (apps)
-    - Navegadores
-    - Mensagens
-    - Redes sociais
+  - Navegadores
+  - Mensagens
+  - Redes sociais
 - Arquivos
-    - Foto, vídeo, textos, etc.
-    - São interpretados por programas ou apps
+  - Foto, vídeo, textos, etc.
+  - São interpretados por programas ou apps
 
 ---
 
@@ -95,49 +95,32 @@ Imagina uma farmácia onde você vai pedir um remédio para o atendimento
 ## Cliente x Servidor
 
 - Cliente
-    
-    Navegador (Browser)
-    
+  Navegador (Browser)
 - Servidor
-    
-    Computador em algum lugar do mundo que tem os códigos
-    
+  Computador em algum lugar do mundo que tem os códigos
 - Troca de dados (arquivos)
-    
-    Cliente faz o pedido e Servidor escuta e responde ao pedido
-    
-    Cliente é o front-end, servidor é o back-end
-    
+  Cliente faz o pedido e Servidor escuta e responde ao pedido
+  Cliente é o front-end, servidor é o back-end
 
 ---
 
 ## Tecnologias Front-end
 
 - HTML
-    
-    Linguagem de marcação de texto para estrutura os textos, criar links, imagens, etc...
-    
+  Linguagem de marcação de texto para estrutura os textos, criar links, imagens, etc...
 - CSS
-    
-    Linguagem de estilo para deixar o HTML bonito
-    
+  Linguagem de estilo para deixar o HTML bonito
 - JavaScript
-    
-    Linguagem de programação que funciona no Navegador
-    
+  Linguagem de programação que funciona no Navegador
 
 ---
 
 ## Tecnologias Back-end
 
 - NodeJS
-    
-    Rodar o JavaScript no computador
-    
+  Rodar o JavaScript no computador
 - SQL
-    
-    Banco de dados para proteger os dados do seu programa
-    
+  Banco de dados para proteger os dados do seu programa
 
 ---
 
@@ -152,35 +135,23 @@ Ferramentas para configurar seu ambiente de desenvolvimento
 ## Ferramentas
 
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge?r=1)
-    
-    Navegador (Browser)
-    
+  Navegador (Browser)
 - [Visual Studio Code](https://code.visualstudio.com/)
-    
-    Editor de código profissional para gerenciar o projeto
-    
+  Editor de código profissional para gerenciar o projeto
 - [Figma](https://www.figma.com/)
-    
-    Plataforma online e profissional para Design de projetos
-    
+  Plataforma online e profissional para Design de projetos
 
 [Instalando e configurando o Figma](https://www.notion.so/Instalando-e-configurando-o-Figma-c130d3c1d8a046a1b3f941abf225e03c)
 
 - [Git](https://git-scm.com/)
-    
-    Rastreamento e histórico do projeto
-    
+  Rastreamento e histórico do projeto
 - [Github](https://github.com/)
-    
-    Seus projetos na nuvem
-    
+  Seus projetos na nuvem
 
 [Instalando o Git e GitHub](https://www.notion.so/Instalando-o-Git-e-GitHub-2a4c9a3d7da148b099df903177843a08)
 
 - [Fronteditor.dev](https://fronteditor.dev/)
-    
-    Editor de código online
-    
+  Editor de código online
 
 ---
 
@@ -196,9 +167,7 @@ Introdução
 
 - Estruturar textos, criar links, imagens, vídeo, etc ...
 - Hypertext Markup Language
-    
-    Linguagem de marcação de texto
-    
+  Linguagem de marcação de texto
 
 ---
 
@@ -213,9 +182,7 @@ Introdução
 
 - Marcação do texto
 - Elemento HTML ou **`tag`**
-    
-    Existem inúmeras tags e cada uma deles irá servir para um determinado propósito. Ex.: imagem, texto grande, link, parágrafo, etc...
-    
+  Existem inúmeras tags e cada uma deles irá servir para um determinado propósito. Ex.: imagem, texto grande, link, parágrafo, etc...
 
 ---
 
@@ -226,7 +193,6 @@ Como escrevemos tags HTML?
 ```html
 <p>conteúdo</p>
 <!-- Aqui vem um comentário -->
-
 ```
 
 ---
@@ -240,7 +206,6 @@ Como escrevemos atributos?
 ```html
 <a href="<https://github.com/daniel-oliv3/>">Ver site</a>
 <img src="image.jpg" />
-
 ```
 
 ---
@@ -259,9 +224,7 @@ Introdução
 
 - Estilos para o HTML
 - Cascading Style Sheets
-    
-    Folha de Estilo em Cascata
-    
+  Folha de Estilo em Cascata
 - Apresentação visual para o cliente
 
 ---
@@ -269,17 +232,13 @@ Introdução
 ## Declaration
 
 - **Declaração**
-    
-    Pedaço de código que irá ditar as propriedades e valores a serem aplicadas a um elemento HTML
-    
+  Pedaço de código que irá ditar as propriedades e valores a serem aplicadas a um elemento HTML
 - Como escrevemos ?
-    
-    
 
 ```css
 body {
   background: black;
-	/* color: green; Essa linha será ignorada */
+  /* color: green; Essa linha será ignorada */
 }
 ```
 
@@ -288,9 +247,7 @@ body {
 ## Cascading
 
 - Cascata
-    
-    Quando há 2 (ou mais) declarações a última será mais relevante
-    
+  Quando há 2 (ou mais) declarações a última será mais relevante
 
 ```css
 body {
@@ -300,7 +257,6 @@ body {
 body {
   background: blue;
 }
-
 ```
 
 ---
@@ -308,52 +264,43 @@ body {
 ## Specificity
 
 - Especificidade
-    
-    Cada seletor tem um peso e a soma dos pesos, será levada em conta para que determinada declaração seja mais específica
-    
+  Cada seletor tem um peso e a soma dos pesos, será levada em conta para que determinada declaração seja mais específica
 
 ```css
 #id {
   /* peso 100 */
 }
-
 ```
 
 ```css
 .class {
   /* peso 10 */
 }
-
 ```
 
 ```css
 element {
   /* peso 1 */
 }
-
 ```
 
-> *A cascata perde prioridade e é priorizada a especificidade da declaração*
-> 
+> _A cascata perde prioridade e é priorizada a especificidade da declaração_
 
 ---
 
 ## Box Model
 
 - Tudo são caixas
-    
-    Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão
-    
+  Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão
 - Caixas possuem determinadas propriedades
-    
-    Conteúdo, Largura, Altura, Borda, Preenchimento (espaço interno), Espaçamento (espaço externo)
-    
+  Conteúdo, Largura, Altura, Borda, Preenchimento (espaço interno), Espaçamento (espaço externo)
 
 ![http://espezua.github.io/blog/imgs/boxmodel.png](http://espezua.github.io/blog/imgs/boxmodel.png)
 
 ---
 
 ---
+
 ---
 
 ## Config para o VSCode
@@ -425,17 +372,11 @@ Programação nada mais é do que ensinar o computador
 ## Ensinar o computador
 
 - Algoritmos
-    
-    Sequência de passos, conjunto de regras
-    
+  Sequência de passos, conjunto de regras
 - Lógica de programação
-    
-    Maneira de pensar
-    
+  Maneira de pensar
 - Sintaxe
-    
-    Maneira correta de escrever
-    
+  Maneira correta de escrever
 
 ---
 
@@ -448,34 +389,22 @@ Perdendo o medo de programar
 ## **O que é?**
 
 - Linguagem de programação
-    
-    Interpretada e executada pelos navegadores
-    
+  Interpretada e executada pelos navegadores
 - A inteligência da tríade
-    
-    HTML é a estrutura, CSS é beleza e JS é a inteligência
-    
+  HTML é a estrutura, CSS é beleza e JS é a inteligência
 - Não é JAVA
-    
-    Apesar do nome ser semelhante, são linguagens diferentes
-    
+  Apesar do nome ser semelhante, são linguagens diferentes
 
 ---
 
 ## **Por que JS?**
 
 - Aplicativos
-    
-    Para WEB, Desktop (Electron) e Mobile (React Native)
-    
+  Para WEB, Desktop (Electron) e Mobile (React Native)
 - Empresas famosas
-    
-    Instagram, Google, Netflix, TikTok …
-    
+  Instagram, Google, Netflix, TikTok …
 - Moderna e Viva
-    
-    Comunidade e linguagem que cresce cada vez mais
-    
+  Comunidade e linguagem que cresce cada vez mais
 
 ---
 
@@ -484,20 +413,15 @@ Perdendo o medo de programar
 Toda linguagem é escrita com esses 2 princípios
 
 - **Instruções** (declarações)
-    
-    Ordens ao computador
-    
+  Ordens ao computador
 - **Sintaxe**
-    
-    Maneira correta de escrever
-    
+  Maneira correta de escrever
 
 ```jsx
 alert("Fala, Dev!") // Fala, Dev!
 
-alert((10 * 100) + " abraços")
+alert(10 * 100 + " abraços")
 // 1000 abraços !
-
 ```
 
 <aside> 💡 Existem `palavras reservadas` da linguagem. Elas são responsáveis em dar significado a diversas instruções.
@@ -511,17 +435,11 @@ alert((10 * 100) + " abraços")
 Podemos executar diretamente no Navegador
 
 - Ferramenta `DevTools`
-    
-    Apertando o atalho `F12` no seu teclado
-    
+  Apertando o atalho `F12` no seu teclado
 - Plataformas online
-    
-    fronteditor.dev [codepen.io](http://codepen.io/)
-    
+  fronteditor.dev [codepen.io](http://codepen.io/)
 - Projeto local
-    
-    Arquivos no computador
-    
+  Arquivos no computador
 
 ---
 
@@ -532,12 +450,13 @@ Podemos executar diretamente no Navegador
 
 <!-- executa js direto no arquivo .html -->
 
-<script>alert('Olá!')</script>
+<script>
+  alert("Olá!")
+</script>
 
 <!-- importa um arquivo .js no seu .html -->
 
 <script src="./script.js"></script>
-
 ```
 
 ---
@@ -566,20 +485,18 @@ Informações que podem ser em `textos`, `números`, `booleanos` (valores l�
 
 ```jsx
 // declaro e atribuo valor
-let boasVindas = "Fala, Dev!";
+let boasVindas = "Fala, Dev!"
 boasVindas = "Fala, Dev! Beleza?!"
 
 // constante não pode mudar o valor
-const serHumano = true;
+const serHumano = true
 serHumano = false // Erro!
-
 ```
 
 ```jsx
 // String
 ""
-''
-``
+""``
 
 // Number
 1
@@ -588,7 +505,6 @@ serHumano = false // Erro!
 // Boolean
 true
 false
-
 ```
 
 ---
@@ -610,13 +526,12 @@ O Rei do Javascript
 
 ```jsx
 // usando uma função
-alert('Fala, Dev!')
+alert("Fala, Dev!")
 
 // criando uma função
 function alert(text) {
-	return text
+  return text
 }
-
 ```
 
 ---
@@ -632,54 +547,28 @@ Ele domina o Javascript
 ## Tudo é objeto
 
 - Atributos
-    
-    São as propriedades de um objeto
-    
+  São as propriedades de um objeto
 - Métodos
-    
-    São as funcionalidades de um objeto
-    
+  São as funcionalidades de um objeto
 
 ```jsx
 // criando um objeto
 const person = {
-	age: 18,
-	drive: function() {}
+  age: 18,
+  drive: function () {},
 }
 
 // usando um objeto
 person.drive()
-
 ```
 
 ---
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ##
 
-- By:  **Daniel Oliveira**
+- By: **Daniel Oliveira**
 
   - `Instagram` - https://www.instagram.com/danieloliv3/
   - `Facebook` - https://web.facebook.com/danielsapup3/
@@ -687,4 +576,3 @@ person.drive()
   - `Linkedin` - https://www.linkedin.com/in/danielsapup3/
 
 ##
-

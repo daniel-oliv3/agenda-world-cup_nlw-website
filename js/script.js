@@ -1,69 +1,33 @@
 /* JavaScript */
 
-function createCard(){
+function createGame(player1, hour, player2) {
   return `
-    <div class="card">
-			<h2>24/11 <span>Quinta</span></h2>
-			<ul>
-				<li>
-					<img src="img/teams/icon=brazil.svg" alt="Bandeira do Brasil">
-					<strong>07:00</strong>
-					<img src="img/teams/icon=serbia.svg" alt="Bandeira da Sérvia">
-				</li>
-			</ul>
-		</div>
-  `;
+    <li>
+			<img src="img/teams/icon=${player1}.svg" alt="Bandeira do ${player1}">
+			<strong>${hour}</strong>
+			<img src="img/teams/icon=${player2}.svg" alt="Bandeira da ${player2}">
+		</li>
+  `
 }
 
+function createCard(date, day, games) {
+  return `
+    <div class="card">
+			<h2>${date} <span>${day} </span></h2>
+			<ul>
+				${games}
+			</ul>
+		</div>
+  `
+}
 
 document.querySelector("#app").innerHTML = `
   <header>
 		<img src="img/assets/logo.svg" alt="Logo">
 	</header>
-	<main class="cards">
-		${createCard()}
-    ${createCard()}
-    ${createCard()}
+	<main id="cards">
+		${createCard("24/11", "quinta", createGame("brazil", "16:30", "serbia"))}
+    ${createCard("28/11", "segunda", createGame("brazil", "16:30", "serbia"))}
+    ${createCard("02/12", "sexta", createGame("brazil", "16:30", "serbia"))}
 	</main>
  `
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
