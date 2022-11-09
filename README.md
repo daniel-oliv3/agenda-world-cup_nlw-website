@@ -565,6 +565,26 @@ person.drive()
 ---
 
 ---
+##
+
+- Refactor
+    - [ ]  Mudar o código, sem mudar o comportamento
+    - [ ]  Mais clareza e melhoraria para o código
+- Animações e transições
+    - [ ]  Transition
+    - [ ]  `@keyframes`
+    - [ ]  Dynamic with JS
+- Desktop Mode
+    - [ ]  `@media`
+- Custom colors
+
+
+
+
+
+
+
+
 
 ##
 
