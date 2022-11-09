@@ -26,8 +26,8 @@ document.querySelector("#app").innerHTML = `
 		<img src="img/assets/logo.svg" alt="Logo">
 	</header>
 	<main id="cards">
-		${createCard("24/11", "quinta", createGame("brazil", "16:30", "serbia"))}
-    ${createCard("28/11", "segunda", createGame("brazil", "16:30", "serbia"))}
-    ${createCard("02/12", "sexta", createGame("brazil", "16:30", "serbia"))}
+		${createCard("24/11", "quinta", createGame("brazil", "15:00", "serbia"))}
+    ${createCard("28/11", "segunda", createGame("switzerland", "12:00", "brazil"))}
+    ${createCard("02/12", "sexta", createGame("brazil", "15:00", "cameroon"))}
 	</main>
  `
