@@ -6,6 +6,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --card-title-border-color: #746615;
+  --card-color-primary: #f7dd43;
+  --card-bg-color: #1D1C19;
+}
+
+body.blue {
+  --card-title-border-color: #338AF3;
+  --card-color-primary: #338AF3;
+  --card-bg-color: #202024;
+}
+
+body.green {
+  --card-title-border-color: #047C3F;
+  --card-color-primary: #047C3F;
+  --card-bg-color: #1A1F1B;
+}
+
 ul {
   list-style: none;
 }
@@ -44,22 +62,25 @@ header {
   padding: 32px 23px;
   text-align: center;
 
-  background: #1d1c19;
-  border-bottom: 2px solid #f7dd43;
+  background: var(--card-bg-color);
+  border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
 }
 
 .card h2 {
   display: flex;
-  border: 1px solid #746615;
+  border: 1px solid var(--card-title-border-color);
   padding: 8px 16px;
   border-radius: 6px;
+
   gap: 16px;
   justify-content: center;
   color: #f7dd43;
+
   align-items: center;
   width: fit-content;
   margin-inline: auto;
+
   margin-bottom: 53px;
 }
 
@@ -94,24 +115,23 @@ header {
   color: #e1e1e6;
 }
 
-
 /* Hover, scale */
 .card h2:hover,
 .card ul li strong:hover,
 .card ul li img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card h2,
 .card ul li strong,
 .card ul li img {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 /* Animated */
 .card {
-    opacity: 0;
-    animation: appear .2s forwards;
+  opacity: 0;
+  animation: appear 0.2s forwards;
 }
 
 /*.card:nth-child(1) {
@@ -125,35 +145,21 @@ header {
 }*/
 
 @keyframes appear {
-    0% {
-        transform: translateY(-50%);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
-}
-
-
-
-
-
-
-
-
-/* ======= Responsive/Responsividade ======= */
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
+  100% {
+    opacity: 1;
   }
 }
 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
+/* ======= Responsive/Responsividade ======= */
+@media (min-width: 700px) {
+  #cards {
+    max-width: 670px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
