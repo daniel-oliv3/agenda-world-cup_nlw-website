@@ -110,10 +110,11 @@ header {
 
 /* Animated */
 .card {
-    animation: appear .2s;
+    opacity: 0;
+    animation: appear .2s forwards;
 }
 
-.card:nth-child(1) {
+/*.card:nth-child(1) {
     animation-delay: 1s;
 }
 .card:nth-child(2) {
@@ -121,7 +122,7 @@ header {
 }
 .card:nth-child(3) {
     animation-delay: 3s;
-}
+}*/
 
 @keyframes appear {
     0% {
