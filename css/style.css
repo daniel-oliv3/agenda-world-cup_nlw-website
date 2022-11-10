@@ -9,19 +9,22 @@
 :root {
   --card-title-border-color: #746615;
   --card-color-primary: #f7dd43;
-  --card-bg-color: #1D1C19;
+  --card-bg-color: #1d1c19;
+  --bg: url(/img/bg-yellow.svg);
 }
 
 body.blue {
-  --card-title-border-color: #338AF3;
-  --card-color-primary: #338AF3;
+  --card-title-border-color: #338af3;
+  --card-color-primary: #338af3;
   --card-bg-color: #202024;
+  --bg: url(/img/bg-blue.svg);
 }
 
 body.green {
-  --card-title-border-color: #047C3F;
-  --card-color-primary: #047C3F;
-  --card-bg-color: #1A1F1B;
+  --card-title-border-color: #047c3f;
+  --card-color-primary: #047c3f;
+  --card-bg-color: #1a1f1b;
+  --bg: url(/img/bg-green.svg);
 }
 
 ul {
@@ -29,10 +32,11 @@ ul {
 }
 
 body {
-  background-color: #121214;
-  background-image: url("../img/assets/bg2.svg");
-  background-position-x: center;
-  background-position-y: -715px; /*55.6%;*/
+  background-color: #121214;  
+  background-image: var(--bg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body * {
@@ -42,7 +46,8 @@ body * {
 #app {
   /*border: 1px solid red;*/
   width: fit-content;
-  margin: 52px auto;
+  margin: auto;
+  padding-top: 52px;
 }
 
 header {
