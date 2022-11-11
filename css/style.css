@@ -32,11 +32,12 @@ ul {
 }
 
 body {
-  background-color: #121214;  
+  /*background-color: #121214;  
   background-image: var(--bg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  background: #121214 var(--bg) no-repeat top center/cover;
 }
 
 body * {
