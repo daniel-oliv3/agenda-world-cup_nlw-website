@@ -626,9 +626,19 @@ git add.
 git commit -m "message here"
 ```
 
+- Criar a nova branch e nomeia como main
+```
+git branch -M main
+```
+
+- Repositório remoto
+```
+git remote add origin https://github.com/daniel-oliv3/agenda-world-cup_nlw-website.git
+```
+
 - Envia alterações para o repositório remoto
 ```
-git push
+git push -u origin main
 ```
 
 
