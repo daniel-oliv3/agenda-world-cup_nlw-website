@@ -641,9 +641,17 @@ git remote add origin https://github.com/daniel-oliv3/agenda-world-cup_nlw-websi
 git push -u origin main
 ```
 
+**Emoticons**
+Github Push:
+  :tada:
 
+**Github**
+- Github project
+- Deploy: Settings/pages/"brancha/main", save
 
-
+- Link do projeto:
+  - Github: https://daniel-oliv3.github.io/agenda-world-cup_nlw-website
+  - Vercel: https://agenda-world-cup-nlw-website.vercel.app/
 
 
 
