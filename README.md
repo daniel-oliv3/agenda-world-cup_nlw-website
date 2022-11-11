@@ -579,6 +579,71 @@ person.drive()
 - Custom colors
 
 
+##
+### Git
+##
+
+**O que é ?**
+
+- Plataforma online para colocar seus códigos
+  - Através do Git
+- Trabalha em diversos projetos
+  - Profissional para colaborar em projetos ou trabalhar com times
+- Perfil para mostrar seu trabalho
+  - Portfólio
+
+- Github: https://github.com/daniel-oliv3
+
+**Introdução**
+- Controle de versão
+    - Histórico do projeto
+
+- Linha do tempo
+
+**Conceitos básicos**
+- Repository
+    - Local onde ficará o histórico do seu projeto
+- Branch
+    - Linha do tempo
+- Commit
+    - Pontos na história
+- Stage
+    - Preparação do que será enviado para o ponto na história
+
+**Comandos**
+- Inicia o git (repositório) no seu projeto
+```
+git init
+```
+
+- Adiciona todos os arquivos modificados, ao stage
+```
+git add.
+```
+
+- Cria e descreve um ponto na história
+```
+git commit -m "message here"
+```
+
+- Envia alterações para o repositório remoto
+```
+git push
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
